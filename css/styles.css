@@ -699,6 +699,14 @@ transition: opacity 500ms, visibility 500ms;
     justify-content: center;
     background-color: var(--primary-background-color);
   }
+  .modal-close-button:focus,
+  .modal-close-button:hover{
+    cursor: pointer;}
+
+    .close-icon:focus,
+    .close-icon:hover {
+    fill: var(--accent-color);
+  }
 .is-hidden{
    opacity: 0;
    visibility: hidden;
@@ -707,6 +715,7 @@ transition: opacity 500ms, visibility 500ms;
 .close-icon{
     width: 18px;
     height: 18px;
+    fill: #000000;
 }
 /* Form */
 .recall{
@@ -749,6 +758,7 @@ padding: 40px;
     border-radius: 4px;
     border: 1px solid var(--primary-text-colour);
     width: 448px;
+    height: 40px;
     opacity: 20%;
 outline: none;
 transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);}
@@ -774,6 +784,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);}
     border-radius: 4px;
     border: 1px solid var(--primary-text-colour);
     width: 448px;
+    height: 120px;
     opacity: 20%;
     color: rgba(117, 117, 117, 0.5);
     font-family: inherit;
